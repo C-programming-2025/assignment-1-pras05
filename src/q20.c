@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int n;
     printf("Enter a number: ");
-    scanf("%d", &num);
-
-    int pras = (num % 3 == 0) && (num % 5 == 0);
-
-    printf("%d\n", pras);
+    scanf("%d", &n);
+    printf("%d\n", (n % 3 == 0) && (n % 5 == 0));
     return 0;
 }
